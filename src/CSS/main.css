@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #606c38;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+}
+body h1 {
+  font-family: "Oswald", sans-serif;
+  letter-spacing: 5px;
+  font-weight: lighter;
+  font-size: 48px;
+  text-align: center;
+  line-height: 50px;
+  color: #000;
+  padding: 25px;
+  width: 900px;
+  height: 100px;
+  background-color: #edf2f4;
+  margin-bottom: -50px;
+  border: 1px solid #edf2f4;
+  border-radius: 10px;
+}
+body .container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 950px;
+  height: 650px;
+}
+body .container #tooltip {
+  position: absolute;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 2px;
+  width: 100px;
+  height: 50px;
+  font-size: 12px;
+  background-color: #fefae0;
+  border: 1px solid #fefae0;
+  border-radius: 2px;
+  pointer-events: none;
+  top: 550px;
+}
+body .container .svgContainer {
+  background-color: #edf2f4;
+  border: 1px solid #edf2f4;
+  border-radius: 10px;
+}
+body .container .svgContainer .axis-title {
+  font-size: 16px;
+}
+body .container .svgContainer .source {
+  font-size: 14px;
+}
+body .container .svgContainer .source a {
+  text-decoration: none;
+}
+body .container .svgContainer .bar:hover {
+  opacity: 0.3;
+}/*# sourceMappingURL=main.css.map */
